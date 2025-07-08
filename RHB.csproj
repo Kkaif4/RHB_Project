@@ -1,0 +1,75 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>RHB</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net40</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="TMBILL.Report_Sell.rdlc" />
+    <None Remove="TMBILL.Report_TakeAway.rdlc" />
+    <None Remove="TMBILL.Report_INVOICE.rdlc" />
+    <None Remove="TMBILL.Report_purchase.rdlc" />
+    <None Remove="TMBILL.Report_STOCK.rdlc" />
+    <None Remove="TMBILL.Report_checkIn.rdlc" />
+    <None Remove="TMBILL.Report_BILLREPORT.rdlc" />
+    <None Remove="TMBILL.Report_KOT.rdlc" />
+    <None Remove="TMBILL.Report_HOMEDELIVERY.rdlc" />
+    <None Remove="TMBILL.Report_Itemwise.rdlc" />
+    <EmbeddedResource Include="TMBILL.Report_Sell.rdlc" LogicalName="TMBILL.Report_Sell.rdlc" />
+    <EmbeddedResource Include="TMBILL.Report_TakeAway.rdlc" LogicalName="TMBILL.Report_TakeAway.rdlc" />
+    <EmbeddedResource Include="TMBILL.Report_INVOICE.rdlc" LogicalName="TMBILL.Report_INVOICE.rdlc" />
+    <EmbeddedResource Include="TMBILL.Report_purchase.rdlc" LogicalName="TMBILL.Report_purchase.rdlc" />
+    <EmbeddedResource Include="TMBILL.Report_STOCK.rdlc" LogicalName="TMBILL.Report_STOCK.rdlc" />
+    <EmbeddedResource Include="TMBILL.Report_checkIn.rdlc" LogicalName="TMBILL.Report_checkIn.rdlc" />
+    <EmbeddedResource Include="TMBILL.Report_BILLREPORT.rdlc" LogicalName="TMBILL.Report_BILLREPORT.rdlc" />
+    <EmbeddedResource Include="TMBILL.Report_KOT.rdlc" LogicalName="TMBILL.Report_KOT.rdlc" />
+    <EmbeddedResource Include="TMBILL.Report_HOMEDELIVERY.rdlc" LogicalName="TMBILL.Report_HOMEDELIVERY.rdlc" />
+    <EmbeddedResource Include="TMBILL.Report_Itemwise.rdlc" LogicalName="TMBILL.Report_Itemwise.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MetroFramework" />
+    <Reference Include="System.Data">
+      <HintPath>../../../../../usr/share/dotnet/shared/Microsoft.NETCore.App/8.0.17/System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <HintPath>../../../../../usr/share/dotnet/shared/Microsoft.NETCore.App/8.0.17/System.Data.DataSetExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms" />
+    <Reference Include="System.Xml">
+      <HintPath>../../../../../usr/share/dotnet/shared/Microsoft.NETCore.App/8.0.17/System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration">
+      <HintPath>../../../../../usr/share/dotnet/shared/Microsoft.NETCore.App/8.0.17/System.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.WinForms" />
+    <Reference Include="AForge.Video.DirectShow" />
+    <Reference Include="AForge.Video" />
+    <Reference Include="System.Core">
+      <HintPath>../../../../../usr/share/dotnet/shared/Microsoft.NETCore.App/8.0.17/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <HintPath>../../../../../usr/share/dotnet/shared/Microsoft.NETCore.App/8.0.17/Microsoft.CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>../../../../../usr/share/dotnet/shared/Microsoft.NETCore.App/8.0.17/System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceProcess">
+      <HintPath>../../../../../usr/share/dotnet/shared/Microsoft.NETCore.App/8.0.17/System.ServiceProcess.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts" />
+    <Reference Include="LiveCharts.Wpf" />
+    <Reference Include="System.Management" />
+  </ItemGroup>
+</Project>

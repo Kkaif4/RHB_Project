@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/kaif-shaikh/storage/readyToExtract/decompiled-rhb/RHB.csproj": {}
+  },
+  "projects": {
+    "/home/kaif-shaikh/storage/readyToExtract/decompiled-rhb/RHB.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/kaif-shaikh/storage/readyToExtract/decompiled-rhb/RHB.csproj",
+        "projectName": "RHB",
+        "projectPath": "/home/kaif-shaikh/storage/readyToExtract/decompiled-rhb/RHB.csproj",
+        "packagesPath": "/home/kaif-shaikh/.nuget/packages/",
+        "outputPath": "/home/kaif-shaikh/storage/readyToExtract/decompiled-rhb/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/kaif-shaikh/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net40"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net40": {
+            "targetAlias": "net40",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net40": {
+          "targetAlias": "net40",
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.411/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

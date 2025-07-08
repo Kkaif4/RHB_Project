@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "W99SMCaZFfk=",
+  "success": true,
+  "projectFilePath": "/home/kaif-shaikh/storage/readyToExtract/decompiled-rhb/RHB.csproj",
+  "expectedPackageFiles": [
+    "/home/kaif-shaikh/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.3/microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "/home/kaif-shaikh/.nuget/packages/microsoft.netframework.referenceassemblies.net40/1.0.3/microsoft.netframework.referenceassemblies.net40.1.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
